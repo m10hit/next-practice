@@ -19,5 +19,5 @@ export const generateMetadata = async ({
 };
 
 export default function ProductDetails({ params }: IProductDetailsProps) {
-  return <h1>Details about product {params.productId}</h1>;
+  return <h1>Details about {params.productId}</h1>;
 }
